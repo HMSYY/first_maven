@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Ch01_spring/Ch01_first.iml" filepath="$PROJECT_DIR$/Ch01_spring/Ch01_first.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ch02_di_xml/Ch02_di_xml.iml" filepath="$PROJECT_DIR$/Ch02_di_xml/Ch02_di_xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ch03-di-anno/Ch03-di-anno.iml" filepath="$PROJECT_DIR$/Ch03-di-anno/Ch03-di-anno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ch04-aop-leadin/Ch04-aop-leadin.iml" filepath="$PROJECT_DIR$/Ch04-aop-leadin/Ch04-aop-leadin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ch05-aop-leadin1/Ch05-aop-leadin1.iml" filepath="$PROJECT_DIR$/Ch05-aop-leadin1/Ch05-aop-leadin1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ch06-aspectj-before/Ch06-aspectj-before.iml" filepath="$PROJECT_DIR$/Ch06-aspectj-before/Ch06-aspectj-before.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ch07-aspectj-afterreturning/Ch07-aspectj-afterreturning.iml" filepath="$PROJECT_DIR$/Ch07-aspectj-afterreturning/Ch07-aspectj-afterreturning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ch08-aspectj-around/Ch08-aspectj-around.iml" filepath="$PROJECT_DIR$/Ch08-aspectj-around/Ch08-aspectj-around.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ch09-aspectj-afterthrowing/Ch09-aspectj-afterthrowing.iml" filepath="$PROJECT_DIR$/Ch09-aspectj-afterthrowing/Ch09-aspectj-afterthrowing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ch10-aspectj-after/Ch10-aspectj-after.iml" filepath="$PROJECT_DIR$/Ch10-aspectj-after/Ch10-aspectj-after.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ch11-aspectj-pointcut/Ch11-aspectj-pointcut.iml" filepath="$PROJECT_DIR$/Ch11-aspectj-pointcut/Ch11-aspectj-pointcut.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ch12-aop-homework/Ch12-aop-homework.iml" filepath="$PROJECT_DIR$/Ch12-aop-homework/Ch12-aop-homework.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Ch06-aspectj-before" />
+        <module name="Ch07-aspectj-afterreturning" />
+        <module name="Ch10-aspectj-after" />
+        <module name="Ch05-aop-leadin1" />
+        <module name="Ch04-aop-leadin" />
+        <module name="Ch12-aop-homework" />
+        <module name="Ch03-di-anno" />
+        <module name="Ch09-aspectj-afterthrowing" />
+        <module name="Ch02_di_xml" />
+        <module name="Ch01_first" />
+        <module name="Ch11-aspectj-pointcut" />
+        <module name="Ch08-aspectj-around" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Ch01_first" target="16" />
+      <module name="Ch02_di_xml" target="16" />
+      <module name="Ch03-di-anno" target="16" />
+      <module name="Ch04-aop-leadin" target="16" />
+      <module name="Ch05-aop-leadin1" target="16" />
+      <module name="Ch06-aspectj-before" target="16" />
+      <module name="Ch07-aspectj-afterreturning" target="16" />
+      <module name="Ch08-aspectj-around" target="16" />
+      <module name="Ch09-aspectj-afterthrowing" target="16" />
+      <module name="Ch10-aspectj-after" target="16" />
+      <module name="Ch11-aop-homework" target="16" />
+      <module name="Ch11-aspectj-pointcut" target="16" />
+      <module name="Ch12-aop-homework" target="16" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Ch03-di-anno" options="" />
+    </option>
+  </component>
+</project>

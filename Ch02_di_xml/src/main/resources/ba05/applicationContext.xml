@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd">
+
+    <!--声明bean-->
+    <!--byType自动注入-->
+    <bean id = "myStudent" class = "com.industry.ba05.Student" autowire = "byType">
+        <constructor-arg name = "initialName" value = "lisa"/>
+        <constructor-arg name = "initialAge" value = "26"/>
+        <!--引用类型的赋值-->
+        <!--constructor-arg name = "initialSchool" ref = "mySchool"/-->
+
+    </bean>
+
+    <!--声明school-->
+    <!--bean id = "mySchool" class = "com.industry.ba05.School">
+        <property name = "name" value = "清华大学"/>
+        <property name="address" value="北京海淀区"/>
+    </bean-->
+
+    <!--声明school的子类-->
+    <bean id="primarySchool" class="com.industry.ba05.PrimarySchool">
+        <property name="name" value="北京大兴小学"/>
+        <property name="address" value="北京大兴区"/>
+    </bean>
+
+</beans>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd">
+
+    <!--声明bean-->
+    <!--简单类型set注入-->
+    <bean id = "myStudent" class = "com.industry.ba01.Student">
+            <property name = "name" value = "李四"/><!--执行setName("李四")-->
+            <property name = "age" value = "20"/><!--执行setAge(22)-->
+            <property name = "email" value = "1111@qq.com"/>
+    </bean>
+
+    <!--声明日期类-->
+    <bean id = "myDate" class = "java.util.Date">
+            <property name = "time" value = "234354543"/><!--setTime(long time)-->
+    </bean>
+
+</beans>

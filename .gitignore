@@ -1,0 +1,12 @@
+# Project exclude paths
+/Ch02_di_xml/target/
+/Ch03-di-anno/target/
+/Ch04-aop-leadin/target/
+/Ch05-aop-leadin1/target/
+/Ch06-aspectj-before/target/
+/Ch07-aspectj-afterreturning/target/
+/Ch08-aspectj-around/target/
+/Ch09-aspectj-afterthrowing/target/
+/Ch10-aspectj-after/target/
+/Ch11-aspectj-pointcut/target/
+/Ch12-aop-homework/target/

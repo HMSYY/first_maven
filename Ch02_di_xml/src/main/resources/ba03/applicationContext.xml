@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd">
+
+    <!--声明bean-->
+    <!--构造注入，使用name属性-->
+    <bean id = "myStudent" class = "com.industry.ba03.Student">
+        <constructor-arg name = "initialName" value = "lisa"/>
+        <constructor-arg name = "initialAge" value = "20"/>
+        <constructor-arg name = "initialSchool" ref = "mySchool"/>
+    </bean>
+
+    <!--构造注入，使用index，参数的位置，构造方法参数从左往右-->
+    <bean id = "myStudent2" class="com.industry.ba03.Student">
+        <constructor-arg index="1" value="26"/>
+        <constructor-arg index="0" value="张三"/>
+        <constructor-arg index="2" ref="mySchool"/>
+    </bean>
+
+    <!--构造注入，省略index属性-->
+    <bean id = "myStudent3" class="com.industry.ba03.Student">
+           <constructor-arg value="张锋"/>
+           <constructor-arg value="28"/>
+           <constructor-arg ref="mySchool"/>
+    </bean>
+
+    <!--声明school-->
+    <bean id = "mySchool" class = "com.industry.ba02.School">
+        <property name = "name" value = "北京大学"/>
+        <property name="address" value="北京海淀区"/>
+    </bean>
+
+    <bean id = "myFile" class="java.io.File">
+        <constructor-arg name = "parent" value="D:\\Spring_study"/>
+        <constructor-arg name = "child" value="D:\Spring_study\笔记"/>
+    </bean>
+
+</beans>
